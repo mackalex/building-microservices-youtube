@@ -3,11 +3,10 @@ package handlers
 import (
 	"fmt"
 	"log"
-	"net/http"
 	"strconv"
 
-	"github.com/gorilla/mux"
-	"github.com/nicholasjackson/building-microservices-youtube/product-api/data"
+	"github.com/gofiber/fiber"
+	"github.com/mackalex/building-microservices-youtube/product-api/data"
 )
 
 // KeyProduct is a key used for the Product object in the context
@@ -41,12 +40,9 @@ type ValidationError struct {
 // Panics if cannot convert the id into an integer
 // this should never happen as the router ensures that
 // this is a valid number
-func getProductID(r *http.Request) int {
-	// parse the product id from the url
-	vars := mux.Vars(r)
-
+func getProductID(c *fiber.Ctx) int {
 	// convert the id into an integer and return
-	id, err := strconv.Atoi(vars["id"])
+	id, err := strconv.Atoi(c.Params("id"))
 	if err != nil {
 		// should never happen
 		panic(err)

@@ -27,7 +27,7 @@ Over the weeks we will look at the following topics, teaching you everything you
 
 ### [https://youtu.be/VzBGi_n65iU](https://youtu.be/VzBGi_n65iU)
 
-### Branch: [episode_1](https://github.com/nicholasjackson/building-microservices-youtube/tree/episode_1)
+### Branch: [episode_1](https://github.com/mackalex/building-microservices-youtube/tree/episode_1)
 
 In this episode I show you how to build the simplest service you can using the standard packages in the Go programming language. 
 
@@ -36,7 +36,7 @@ In this episode I show you how to build the simplest service you can using the s
 
 ### [https://youtu.be/hodOppKJm5Y](https://youtu.be/hodOppKJm5Y)
 
-### Branch: [episode_2](https://github.com/nicholasjackson/building-microservices-youtube/tree/episode_2)
+### Branch: [episode_2](https://github.com/mackalex/building-microservices-youtube/tree/episode_2)
 
 In this episode we learn more about the standard library and look at how we can refactor last episodes example into a reusable microservice pattern.
 
@@ -45,7 +45,7 @@ In this episode we learn more about the standard library and look at how we can 
 
 ### [https://youtu.be/eBeqtmrvVpg](https://youtu.be/eBeqtmrvVpg)
 
-### Branch: [episode_3](https://github.com/nicholasjackson/building-microservices-youtube/tree/episode_3)
+### Branch: [episode_3](https://github.com/mackalex/building-microservices-youtube/tree/episode_3)
 
 In this episode we start to learn about RESTFul services and reading and writing data using the JSON format.
 
@@ -54,7 +54,7 @@ In this episode we start to learn about RESTFul services and reading and writing
 
 ### [https://youtu.be/UZbHLVsjpF0](https://youtu.be/UZbHLVsjpF0)
 
-### Branch [episode_4](https://github.com/nicholasjackson/building-microservices-youtube/tree/episode_4)
+### Branch [episode_4](https://github.com/mackalex/building-microservices-youtube/tree/episode_4)
 
 We continue to look at how you can implement RESTFul services with the Standard API
 
@@ -63,7 +63,7 @@ We continue to look at how you can implement RESTFul services with the Standard 
 
 ### [https://youtu.be/DD3JlT_u0DM](https://youtu.be/DD3JlT_u0DM)
 
-### Branch [episode_5](https://github.com/nicholasjackson/building-microservices-youtube/tree/episode_5)
+### Branch [episode_5](https://github.com/mackalex/building-microservices-youtube/tree/episode_5)
 
 In this epsode we refactor our Standard library RESTful service and start to implement the Gorill toolkit for routing.
 
@@ -72,7 +72,7 @@ In this epsode we refactor our Standard library RESTful service and start to imp
 
 ### [https://youtu.be/gE8_-8KoOLc](https://youtu.be/gE8_-8KoOLc)
 
-### Branch [episode_6](https://github.com/nicholasjackson/building-microservices-youtube/tree/episode_6)
+### Branch [episode_6](https://github.com/mackalex/building-microservices-youtube/tree/episode_6)
 
 In this episode we will look at the Go Validator package and how it can be used to validate JSON.
 
@@ -81,6 +81,6 @@ In this episode we will look at the Go Validator package and how it can be used 
 
 ### [https://youtu.be/07XhTqE-j8k](https://youtu.be/07XhTqE-j8k)
 
-### Branch [episode_7](https://github.com/nicholasjackson/building-microservices-youtube/tree/episode_7)
+### Branch [episode_7](https://github.com/mackalex/building-microservices-youtube/tree/episode_7)
 
 This epsiode shows you how you can document the API we have been building over the last couple of weeks. As a bonus we will also look at how we can embed ReDoc to build a nice documentation API direct into our service. 
